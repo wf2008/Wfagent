@@ -1,0 +1,18 @@
+# WfAgent Pro — Lightning AI Studio Requirements (4-bit)
+# Verified: 2026-05-05
+
+# Core ML stack
+torch>=2.11.0
+transformers>=5.7.0
+accelerate>=1.6.0
+bitsandbytes>=0.45.0
+
+# Web UI
+gradio>=6.14.0
+
+# Zero-API-Key Web Search (DuckDuckGo)
+zero-api-key-web-search>=23.0.0
+
+# Utilities
+huggingface-hub>=0.30.0
+numpy>=2.0.0
